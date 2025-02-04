@@ -26,3 +26,40 @@ Ensure you have the following installed:
    ```sh
    git clone https://github.com/your-repo/medical-chatbot.git
    cd medical-chatbot/backend
+   ```
+
+2. 🏗️ Create and activate a virtual environment
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. 📦 Install dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. 🔑 Set up environment variables
+   ```sh
+   GROQ_API_KEY=your_groq_api_key
+   PINECONE_API_KEY=your_pinecone_api_key
+   ```
+
+### 🎨 Frontend Setup
+1. 📁 Navigate to the frontend directory
+   ```sh
+   cd ../frontend
+   ```
+
+2. 📦 Install dependencies
+   ```sh
+   npm install
+   ```
+
+3. ▶️ Start the React development server
+   ```sh
+   npm run dev
+   ```
+
+
+
