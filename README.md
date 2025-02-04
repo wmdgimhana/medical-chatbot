@@ -19,7 +19,6 @@ This is a **Medical Chatbot** built using **Retrieval-Augmented Generation (RAG)
 Ensure you have the following installed:
 - 🐍 Python 3.8+
 - 📦 Node.js & npm
-- 🏗️ Virtual environment (optional but recommended)
 
 ### ⚙️ Backend Setup
 1. 📥 Clone the repository:
